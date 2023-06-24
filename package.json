@@ -1,0 +1,40 @@
+{
+  "name": "tech-task-oversecured-frontend",
+  "version": "1.0.0",
+  "description": "frontend part for oversecured",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack build --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladyslav-rohalov/tech-task-oversecured-frontend.git"
+  },
+  "author": "Vladyslav Rohalov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladyslav-rohalov/tech-task-oversecured-frontend/issues"
+  },
+  "homepage": "https://github.com/vladyslav-rohalov/tech-task-oversecured-frontend#readme",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "postcss-loader": "^7.3.3",
+    "sass": "^1.63.4",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.0",
+    "gridjs": "^6.0.6",
+    "toastify-js": "^1.12.0"
+  }
+}

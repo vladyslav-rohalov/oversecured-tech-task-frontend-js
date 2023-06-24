@@ -1,0 +1,17 @@
+export const refs = {
+  loginFormHero: document.querySelector('[data-login-hero]'),
+  loginFormModal: document.querySelector('[data-login-modal]'),
+  registerFormModal: document.querySelector('[data-register-modal]'),
+  loginBtn: document.querySelector('[data-login-btn]'),
+  registerBtn: document.querySelector('[data-register-btn]'),
+  logoutBtn: document.querySelector('[data-logout-btn]'),
+  heroUnauth: document.querySelector('[data-hero-unauth]'),
+  heroAuth: document.querySelector('[data-hero-auth]'),
+  hero: document.querySelector('[data-hero]'),
+  addVisitor: document.querySelector('[data-add-visitor]'),
+  visitorsTable: document.getElementById('visitor-table'),
+  visitorsFormEdit: document.querySelector('[data-form-edit]'),
+  visitorsDelete: document.querySelector('[data-form-delete]'),
+  collapsBtn: document.querySelector('[data-collapse]'),
+  authBtn: document.getElementById('auth'),
+};
